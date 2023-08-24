@@ -4,83 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GUIA DE TURISMO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        #header {
-            text-align: center;
-            padding: 20px;
-            background-color: #007BFF;
-            color: white;
-        }
-        #menu {
-            background-color: #f5f5f5;
-        }
-        .contenido {
-            background-color: white;
-        }
-        h2 {
-            color: #007BFF;
-        }
-        p {
-            color: #333;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #007BFF;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styledelexamen.css">
 </head>
-<body>
-    <div id="header">
-        <h1>GUIA DE TURISMO</h1>
-    </div>
-    
-    <div id="menu">
-        <h2>Menu</h2>
-        <ul>
-            <li><a href="ciudades.html">Ciudades</a></li>
-            <li><a href="donde ir.html">Donde ir</a></li>
-            <li><a href="que hacer.html">Que hacer</a></li>
-        </ul>
-        <h2>INFORMACION GENERAL DE FRANCIA</h2>
-        <ul>
-            <li><a href="CLIMA.html">Clima</a></li>
-            <li><a href="idiomas.html">Idioma</a></li>
-            <li><a href="cultura.html">Cultura</a></li>
-        </ul>
-    </div>
+<body class="body">
+    <header class="cabezera">
+        <img class="logo" src="imagenes del examen/Logo-Explore-France_04.webp" alt="">
+        <nav>
+            <a class="menu__opciones" href="examen.html">Inicio</a>
+            <a class="menu__opciones" href="ciudades.html">Ciudades</a>
+            <a class="menu__opciones" href="donde ir.html">Donde Ir</a>
+            <a class="menu__opciones" href="que hacer.html">Que Hacer</a>
+        </nav>
+        <a href="contactos.html"><img class="logo__header" src="imagenes del examen/contactos.png" alt=""></a>
+    </header> 
     <div class="contenido">
-        <h2>TURISMO EN FRANCIA</h2>
-        <p>El turismo en Francia es un sector económico importante, tanto para los franceses que eligen pasar sus vacaciones como para los extranjeros que vienen a quedarse. Según cifras de la Organización Mundial del Turismo, desde la década de 1990, Francia es el primer destino turístico del mundo (89 millones de llegadas de turistas internacionales en 2017). El atractivo turístico de Francia se debe a la gran cantidad y variedad de puntos de interés, a la diversidad de paisajes, a la riqueza vinícola y gastronómica, al patrimonio histórico, cultural y artístico, al clima templado y a la facilidad de acceso y de infraestructuras de transporte, así como a la amplia y variada oferta del país (hoteles, restaurantes, parques de atracciones, etc.). Así, cada departamento francés es un departamento turístico con varios puntos de interés.
-           Una encuesta publicada en julio de 2019 muestra que los turistas internacionales proceden principalmente del Reino Unido (14,6%), Alemania (13,7%) y Bélgica y Luxemburgo (13%). A continuación vienen Italia, Suiza y luego España, en torno al 7,5%7.
-           El turismo tiene impactos económicos positivos, pero genera importantes impactos ambientales, tanto en el espacio (flujos de transporte, energía y residuos) como en el tiempo (impactos inmediatos y diferidos). El turismo representa el 7% del PIB francés y 2 millones de empleos directos e indirectos
-           La historia del turismo en Francia comenzó alrededor de 1760 en el sur de Francia, en Hyères, una comuna que se convirtió en una reconocida estación de invierno para los ingleses gracias a su clima mediterráneo relativamente suave.
-        </p>
-        <img src="imagenes del examen/francia-3-800x414.jpg" alt="">
-       <form action="#" method="post">
-           <ul>
-             <li>
-               <label for="name">Nombre:</label>
-               <input type="text" id="name" name="user_name" />
-             </li>
-             <li>
-               <label for="msg">Comentario:</label>
-               <textarea id="msg" name="user_message"></textarea>
-             </li>
-             <li class="button">
-               <button type="submit">Envíe su mensaje</button>
-             </li>              
-           </ul>
-         </form>
+        <img class="image" src="imagenes del examen/francia1.png" alt="">
+        <div class="contenido__text">
+            <p>El turismo en Francia es un sector económico importante, tanto para los franceses que eligen pasar sus vacaciones como para los extranjeros que vienen a quedarse. Según cifras de la Organización Mundial del Turismo, desde la década de 1990, Francia es el primer destino turístico del mundo (89 millones de llegadas de turistas internacionales en 2017). El atractivo turístico de Francia se debe a la gran cantidad y variedad de puntos de interés, a la diversidad de paisajes, a la riqueza vinícola y gastronómica, al patrimonio histórico, cultural y artístico, al clima templado y a la facilidad de acceso y de infraestructuras de transporte, así como a la amplia y variada oferta del país (hoteles, restaurantes, parques de atracciones, etc.). Así, cada departamento francés es un departamento turístico con varios puntos de interés.
+            Una encuesta publicada en julio de 2019 muestra que los turistas internacionales proceden principalmente del Reino Unido (14,6%), Alemania (13,7%) y Bélgica y Luxemburgo (13%). A continuación vienen Italia, Suiza y luego España, en torno al 7,5%7.
+            El turismo tiene impactos económicos positivos, pero genera importantes impactos ambientales, tanto en el espacio (flujos de transporte, energía y residuos) como en el tiempo (impactos inmediatos y diferidos). El turismo representa el 7% del PIB francés y 2 millones de empleos directos e indirectos
+            La historia del turismo en Francia comenzó alrededor de 1760 en el sur de Francia, en Hyères, una comuna que se convirtió en una reconocida estación de invierno para los ingleses gracias a su clima mediterráneo relativamente suave.
+            </p>
+        </div>
    </div>
-   <footer>
-    <p>&copy; 2023 TURISMO DE FRANCIA</p>
+    <footer>
+        <nav class="menu__pie">
+            <div class="contenido__pie">
+                <a class="boton__comentarios" href="cometarios.html">Comentarios</a>
+                <h2 class="texto__pie">Informacion General</h2>
+                <a href="CLIMA.html"><img class="logo__pie" src="imagenes del examen/clima.f.png" alt=""></a>
+                <a href="idiomas.html"><img class="logo__pie1" src="imagenes del examen/idioma.f.png" alt=""></a>
+                <a href="cultura.html"><img class="logo__pie2" src="imagenes del examen/Cultura.f.png" alt=""></a>
+            </div>
+            
+        </nav>
     </footer>
-    
 </body>
 </html>
